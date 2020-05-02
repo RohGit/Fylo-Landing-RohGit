@@ -1,0 +1,155 @@
+primary-button<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- External CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/665a2ae39c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" alt="Fylo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#">Features</a></li>
+          <li class="nav-item"><a href="#">Team</a></li>
+          <li class="nav-item"><a href="#">Sign In</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-lg-6 order-lg-12">
+        <img src="images/illustration-1.svg" alt="header-illustration" class="header-img">
+      </div>
+      <div class="col-lg-6 order-lg-1">
+        <h1 class="big-heading header-heading">All your files in one secure location, accessible anywhere.</h1>
+        <p class="header-p">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+        <form class="" action="index.html" method="post">
+          <div class="row">
+            <div class="col-lg-8">
+              <input type="email" class="form-control header-form-field" name="email" placeholder="Enter your email..." value="">
+            </div>
+            <div class="col-lg-4">
+              <button type="button" name="button" class="btn btn-primary btn-block primary-button">Get Started</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- Background Curved Image -->
+  <img src="images/bg-curve-desktop.svg" alt="bg-img" class="curve-img-bg">
+
+  <!-- Product Description -->
+  <section id="" class="grey-container">
+    <div class="row">
+      <div class="col-lg-5 order-lg-12">
+        <img src="images/illustration-2.svg" alt="Description Image" class="description-img">
+      </div>
+      <div class="col-lg-7 order-lg-1">
+        <h1 class="big-heading">Stay productive, wherever you are</h1>
+
+        <p class="description-p">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+        <p class="description-p">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+        <a href="#" class="description-a">See how Fylo works <img src="images/icon-arrow.svg" alt=""></a>
+
+        <div class="card">
+          <div class="card-body">
+            <img src="images/icon-quotes.svg" alt="Quotes">
+            <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <img src="images/avatar-testimonial.jpg" alt="" class="rounded-circle float-left">
+            <h5 class="avatar-title">Kyle Burton</h5>
+            <h6 class="avatar-subtitle">Founder & CEO, Huddle</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call To Action -->
+  <section id="cta" class="desaturated-blue-container">
+    <div class="row">
+      <div class="col-lg-5">
+        <h1 class="big-heading">Get early access today</h1>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+      </div>
+      <div class="col-lg-5 offset-lg-2">
+        <input type="email" class="form-control" name="email" placeholder="email@example.com" value="">
+        <button type="button" class="btn btn-primary primary-button" name="button">Get Started For Free</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="footer" class="dark-blue-container">
+    <img src="images/logo-white.svg" alt="light-logo" class="logo-white">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="footer-contact">
+          <img src="images/icon-phone.svg" alt="phone-icon">
+          <a href="#">Phone: +1-543-123-4567</a>
+        </div>
+        <div class="footer-contact">
+          <img src="images/icon-email.svg" alt="email-icon">
+          <a href="#">example@fylo.com</a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <ul class="">
+          <li class="footer-link"><a href="#">About Us</a></li>
+          <li class="footer-link"><a href="#">Jobs</a></li>
+          <li class="footer-link"><a href="#">Press</a></li>
+          <li class="footer-link"><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <ul>
+          <li class="footer-link"><a href="#">Contact Us</a></li>
+          <li class="footer-link"><a href="#">Terms</a></li>
+          <li class="footer-link"><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 social-icon">
+        <div class="icon-border">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <div class="icon-border">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="icon-border">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="attribution text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded with ❤️ by <a href="#">Rohan</a>.
+    </p>
+  </footer>
+
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
